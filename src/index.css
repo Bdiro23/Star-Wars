@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #222;
+  color: #ddd;
+  text-align: center;
+}
+
+.App {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #ffff57;
+  font-size: 4em;
+  letter-spacing: 2px;
+}
+
+button {
+  margin: 0 10px;
+  background: transparent;
+  border: 3px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  color: #ccc;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+button:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+button:disabled {
+  color: #555;
+  border-color: #555;
+  cursor: not-allowed;
+}
+
+.content {
+  text-align: left;
+}
+
+.card {
+  padding: 8px 16px;
+  background: #1b1b1b;
+  margin: 16px 0;
+  border-radius: 20px;
+}
+
+.card p {
+  margin: 6px 0;
+  color: #999;
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: #ffff57;
+}
+
+/* Pagination container style */
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Style for the page number display */
+.pagination-container div {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ddd;
+}
+/* Conteneur pour les boutons et le numéro de la page */
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Style pour les boutons */
+.pagination-container button {
+  margin: 0 10px;
+  background: transparent;
+  border: 3px solid #ccc;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #ccc;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Effet au survol des boutons */
+.pagination-container button:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+/* Style pour les boutons désactivés */
+.pagination-container button:disabled {
+  color: #555;
+  border-color: #555;
+  cursor: not-allowed;
+}
+
+/* Style pour le numéro de la page */
+.pagination-container div {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ddd;
+  margin: 0 20px;
+}
